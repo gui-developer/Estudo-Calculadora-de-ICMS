@@ -33,6 +33,7 @@
         android:text="Digite o Estado:" />
 
     <EditText
+        android:id="@+id/estado"
         android:layout_width="359dp"
         android:layout_height="37dp"
         android:layout_marginLeft="20dp"
@@ -48,6 +49,7 @@
         android:text="Digite o valor da Mercadoria: " />
 
     <EditText
+        android:id="@+id/valor"
         android:layout_width="359dp"
         android:layout_height="37dp"
         android:layout_marginLeft="20dp"
@@ -57,6 +59,7 @@
 
 
     <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -64,13 +67,27 @@
         android:text="Alíquota de ICMS (%)" />
 
     <EditText
+        android:id="@+id/porcentagem"
         android:layout_width="359dp"
         android:layout_height="37dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
-        android:background="#eaf5dc"/>
+        android:textAlignment="center"
+        android:hint="%"
+        android:background="#eaf5dc" />
+    <EditText
+        android:id="@+id/valorTotal"
+        android:layout_width="359dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:text=""
+        android:hint="R$0,00"
+        android:background="#eaf5dc" />
 
     <Button
+        android:id="@+id/calcular"
         android:layout_width="100dp"
         android:layout_marginLeft="150dp"
         android:layout_height="48dp"
